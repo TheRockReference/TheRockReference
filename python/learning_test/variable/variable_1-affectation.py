@@ -1,5 +1,4 @@
-# on peut affecter plusieurs variable 
-# a plusieurs valeurs sur une seule ligne
+# you can assign several variables to several values ​​on a single line
 
 a, b, c, d = 3, 4, 5, 7
 

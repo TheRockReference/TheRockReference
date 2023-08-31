@@ -10,9 +10,6 @@ echo "---------------------------------"
 echo -n "\$PWD" is the script path = 
 echo "$PWD"
 echo "---------------------------------"
-
-cd "/usr/lib/libreoffice/program"  #libreoffice python interpreter path
-
 echo " "
 echo "---------------------------------"
 python3 "/home/slaroche/Documents/GitHub/TheRockReference/python/learning_test/print/print_2-end_Fibonacci.py"
@@ -21,3 +18,6 @@ echo "---------------------------------"
 echo " "
 
 python3 "/home/slaroche/Documents/GitHub/TheRockReference/python/learning_test/print/print_1-several_variables_separated_by_comma.py"
+
+python3 --version
+

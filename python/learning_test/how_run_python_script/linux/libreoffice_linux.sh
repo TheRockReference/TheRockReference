@@ -17,7 +17,11 @@ echo " "
 echo "---------------------------------"
 echo " "
 
+echo "The script you are running has:"
+echo "basename: [$(basename "$0")]"
+echo "dirname : [$(dirname "$0")]"
+echo "pwd     : [$(pwd)]"
+
 python3 "/home/slaroche/Documents/GitHub/TheRockReference/python/learning_test/print/print_1-several_variables_separated_by_comma.py"
 
 python3 --version
-

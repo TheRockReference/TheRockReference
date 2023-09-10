@@ -8,10 +8,10 @@ if platform.system() == "Windows":
     resultCmdDir = subprocess.run(["cmd", "/c", "dir", "/b"], capture_output=True, text=True)
     
     print(f"\nOn {platform.system()} the list of files and folders in the current directory is : {resultCmdDir}\n")
-    print(f"The data type of the output is {type(resultCmdDir).stdout.splitlines()}\n")
+    print(f"The data type of the output is {type(resultCmdDir.stdout.splitlines())}\n")
     print(f"Complete Process Result = {resultCmdDir}\n")
-    print(f"Result type string = {esultCmdDir.stdout}\n")
-    print(f"Result type list string = {esultCmdDir.stdout.splitlines()}\n")
+    print(f"Result type string = {resultCmdDir.stdout}\n")
+    print(f"Result type list string = {resultCmdDir.stdout.splitlines()}\n")
     print(f"Returncode = {resultCmdDir.returncode}\n")
     print(f"Error (if any) = {resultCmdDir.stderr}\n")
 
